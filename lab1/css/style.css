@@ -1,0 +1,71 @@
+body{
+  background: antiquewhite;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.bold-css {
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Viking';
+  src: url("English Wd/English Wd.ttf");
+}
+.viking-description {
+  font-family: 'Viking', sans-serif;
+  text-align: center;
+}
+.dragon-description{
+  text-align: justify;
+}
+.thrones-description{
+  text-align: left;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+p1{
+  font-size: 24px;
+
+}
+p{
+  font-size: 20px;
+  margin: 5px;
+}
+.move-down{
+  margin-top: 30px;
+}
+
+.vik{
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.image-row img {
+
+  width: 30%;
+  margin: 0 10px;
+}
