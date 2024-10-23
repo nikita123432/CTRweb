@@ -10,7 +10,7 @@ body{
 
 @font-face {
   font-family: 'Viking';
-  src: url("English Wd/English Wd.ttf");
+  src: url("../English Wd/English Wd.ttf");
 }
 .viking-description {
   font-family: 'Viking', sans-serif;
