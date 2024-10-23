@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета пользователя</title>
+</head>
+<body>
+
+<h2>Анкета пользователя</h2>
+
+<form action="/submit" method="POST">
+
+
+    <fieldset>
+        <legend>Персональная информация</legend>
+
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Пол</legend>
+
+        <label for="male">Мужской</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">Женский</label>
+        <input type="radio" id="female" name="gender" value="female"><br><br>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Загрузка фото</legend>
+
+        <label for="photo">Загрузите ваше фото:</label>
+        <input type="file" id="photo" name="photo"><br><br>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Дополнительные вопросы</legend>
+
+        <label for="subscribe">Подписаться на новости</label>
+        <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+    </fieldset>
+
+
+    <input type="submit" value="Отправить" >
+    <input type="reset" value="Сбросить">
+
+</form>
+
+</body>
+</html>
